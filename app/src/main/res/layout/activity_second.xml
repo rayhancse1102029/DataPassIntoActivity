@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details Information"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"></TextView>
+
+        <TextView
+            android:id="@+id/emailTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="InvalidId"
+            android:text="Email Here"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"></TextView>
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Name Here"
+            tools:ignore="InvalidId"></TextView>
+
+        <TextView
+            android:id="@+id/phoneTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Phone Number Here"
+            tools:ignore="InvalidId"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
